@@ -9,7 +9,7 @@ export interface Project {
 }
 import Anomalydetection from "@/assets/Projects/Anomaly_Detection.webp";
 import Cold_ReachAI from "@/assets/Projects/ColdReach_AI.webp";
-import FileQuery from "@/assets/Projects/File_query.webp";
+import FileQuery from "@/assets/Projects/File_Query.webp";
 import FloatChat from "@/assets/Projects/Float_chat.webp";
 import GPAlytics from "@/assets/Projects/GPAlytics.webp";
 import EnergyAnalysis from "@/assets/Projects/Energy_Analysis.webp";
