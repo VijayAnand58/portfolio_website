@@ -7,7 +7,7 @@ export interface Project {
   githubLink?: string;
   ytLink?: string;
 }
-import Anomalydetection from "@/assets/Projects/anomaly_detection.webp";
+import Anomalydetection from "@/assets/Projects/Anomaly_Detection.webp";
 import Cold_ReachAI from "@/assets/Projects/ColdReach_AI.webp";
 import FileQuery from "@/assets/Projects/File_query.webp";
 import FloatChat from "@/assets/Projects/Float_chat.webp";
