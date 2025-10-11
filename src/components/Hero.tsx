@@ -3,15 +3,16 @@ import React, { Suspense } from "react";
 import TypeComponent from './TypeAnimations'
 
 const LazyPrism = React.lazy(() =>
-  import("./Prism").then((module) => ({ default: module.default }))
+  import("./Aurora").then((module) => ({ default: module.default }))
 );
 export default function Hero() {
   const loopTexts = [
-    "I love code",
+    "I love Coding",
     "I love AI",
-    "I love web dev",
     "I love ML",
+    "I love web dev",
     "I love DevOps",
+    "I love Testing",
   ];
 
   return (
