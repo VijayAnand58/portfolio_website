@@ -54,23 +54,24 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom Line */}
-      <div className="text-center text-sm text-gray-500 dark:text-gray-400">
-        <p className="flex items-center justify-center gap-1">
-          Made with <Heart className="h-4 w-4 text-red-500" /> using{" "}
-          <span className="font-medium text-indigo-600 dark:text-indigo-400">
-            shadcn/ui
-          </span>
-          ,{" "}
-          <span className="font-medium text-indigo-600 dark:text-indigo-400">
-            Aceternity UI
-          </span>
-          , React, and TypeScript by{" "}
-          <span className="font-semibold text-indigo-600 dark:text-indigo-400">
-            FreeEagle53
-          </span>
-          ✨
-        </p>
-      </div>
+      <div className="text-center text-sm text-gray-500 dark:text-gray-400 px-4">
+  <p className="flex flex-wrap justify-center items-center gap-1 leading-snug text-xs sm:text-sm">
+    Made with <Heart className="h-4 w-4 text-red-500 inline" /> using{" "}
+    <span className="font-medium text-indigo-600 dark:text-indigo-400">
+      shadcn/ui
+    </span>
+    ,{" "}
+    <span className="font-medium text-indigo-600 dark:text-indigo-400">
+      Aceternity UI ,
+    </span>
+     React, and TypeScript by{" "}
+    <span className="font-semibold text-indigo-600 dark:text-indigo-400">
+      FreeEagle53
+    </span>{" "}
+    ✨
+  </p>
+</div>
+
     </footer>
   );
 }
