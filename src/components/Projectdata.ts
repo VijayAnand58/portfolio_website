@@ -178,3 +178,39 @@ export const certificates: Certificate[] = [
     link: "https://drive.google.com/file/d/10ZtEjXumtvHAPiZR3s7GqKnlbE3b7_sc/view",
   },
 ];
+
+import Azure from "@/assets/carousel/azure.webp";
+import Dask from "@/assets/carousel/Dask.webp";
+import Pandas from "@/assets/carousel/Pandas.webp";
+import Docker from "@/assets/carousel/docker.webp";
+import gemini from "@/assets/carousel/gemini.webp";
+import fastapi from "@/assets/carousel/fastapi.webp";
+import Python from "@/assets/carousel/Python.webp";
+import React from "@/assets/carousel/Reactjs.webp";
+import SQL from "@/assets/carousel/SQL.webp";
+import JS from "@/assets/carousel/js.webp";
+import MongoDB from "@/assets/carousel/mongodb.webp";
+import Tensorflow from "@/assets/carousel/TensorFlow.webp";
+import Typescript from "@/assets/carousel/typescript.webp";
+import Postman from "@/assets/carousel/postman.webp";
+
+export interface SkillLogo{
+  src: string;
+  alt: string;
+}
+export const skillLogos: SkillLogo[] = [
+  { src: Python, alt: "Python" },
+  { src: SQL, alt: "SQL" },
+  { src: JS, alt: "JavaScript" },
+  { src: Typescript, alt: "TypeScript" },
+  { src: React, alt: "React" },
+  { src: Tensorflow, alt: "TensorFlow" },
+  { src: fastapi, alt: "FastAPI" },
+  { src: Pandas, alt: "Pandas" },
+  { src: Dask, alt: "Dask" },
+  { src: MongoDB, alt: "MongoDB" },
+  { src: Azure, alt: "Azure" },
+  { src: Docker, alt: "Docker" },
+  { src: gemini, alt: "Gemini" },
+  { src: Postman, alt: "Postman" },
+]

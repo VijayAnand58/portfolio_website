@@ -1,9 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
+import { skillLogos } from "./Projectdata";
+import FloatingLogos from "./Imageslogo";
 const skillsData = [
   {
     title: "Core Languages & Markup",
-    skills: ["Python", "SQL", "HTML", "CSS", "JavaScript"],
+    skills: ["Python", "SQL", "HTML", "CSS", "JavaScript", "TypeScript"],
   },
   {
     title: "Technologies & Frameworks",
@@ -52,7 +53,7 @@ export default function SkillsSection() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {skillsData.map((skillCategory, idx) => (
-          <Card key={idx} className="rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <Card key={idx} className="rounded-xl shadow-lg hover:shadow-xl  hover:scale-105 transform transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-lg font-bold">{skillCategory.title}</CardTitle>
             </CardHeader>
@@ -65,6 +66,9 @@ export default function SkillsSection() {
             </CardContent>
           </Card>
         ))}
+      </div>
+      <div className="mt-12">
+        <FloatingLogos logos={skillLogos} />
       </div>
     </section>
   );
