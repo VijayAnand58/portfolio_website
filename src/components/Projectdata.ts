@@ -179,10 +179,10 @@ export const certificates: Certificate[] = [
   },
 ];
 
-import Azure from "@/assets/carousel/azure.webp";
+import Azure from "@/assets/carousel/Azure.webp";
 import Dask from "@/assets/carousel/Dask.webp";
 import Pandas from "@/assets/carousel/Pandas.webp";
-import Docker from "@/assets/carousel/docker.webp";
+import Docker from "@/assets/carousel/Docker.webp";
 import gemini from "@/assets/carousel/gemini.webp";
 import fastapi from "@/assets/carousel/fastapi.webp";
 import Python from "@/assets/carousel/Python.webp";
