@@ -29,12 +29,12 @@ export default function Hero() {
       {/* Content */}
       <div className="px-4 max-w-3xl">
         {/* Static intro */}
-        <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-white dark:text-gray-100">
+        <h1 className=" font-imperial text-4xl sm:text-6xl font-bold mb-4 text-white dark:text-gray-100">
           I am Vijay Anand
         </h1>
 
         {/* Animated loop */}
-        <h2 className="text-xl sm:text-2xl text-white dark:text-gray-200">
+        <h2 className="font-space text-xl sm:text-2xl text-white dark:text-gray-200">
           <TypeComponent values={loopTexts.flatMap(text => [text, 1500])} repeat_val={Infinity} />
         </h2>
       </div>
